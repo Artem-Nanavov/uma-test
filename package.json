@@ -1,6 +1,6 @@
 {
-  "name": "react-webpack-ts-init",
-  "version": "1.0.0",
+  "name": "react-start",
+  "version": "1.0.1",
   "description": "",
   "main": "index.tsx",
   "pre-commit": "lint",
