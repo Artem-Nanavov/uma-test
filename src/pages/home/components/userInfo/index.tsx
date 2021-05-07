@@ -33,7 +33,7 @@ const MyInfo = ({
 
 				{userInfo.phone && (
 					<li>
-						<p>WhatsApp</p>
+						<a href={`https://wa.me/${userInfo.phone.split(' ').join('')}`}>WhatsApp</a>
 
 						<Arrow />
 					</li>
