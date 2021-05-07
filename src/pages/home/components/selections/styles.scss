@@ -1,0 +1,35 @@
+.selections {
+	display: grid;
+	grid-row-gap: 32px;
+	margin-top: 48px;
+
+	&__loadMore {
+		font-family: Arsenal;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 20px;
+
+		margin: 0 auto;
+		padding: 8px 16px;
+		background-color: #FFF;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 3px;
+		border: 1px solid #333;
+	}
+}
+
+.disabled {
+	cursor: default;
+	border: 1px solid #EBEBEB;
+	color: #50555C;
+}
+
+.loading {
+	font-size: 18px;
+	font-family: Arsenal;
+	color: #333;
+	text-align: center;
+}

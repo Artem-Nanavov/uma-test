@@ -1,0 +1,35 @@
+.header {
+	width: 100%;
+
+	& ul {
+		display: grid;
+		grid-template-columns: minmax(72px, 264px) minmax(72px, 264px) minmax(72px, 264px);
+		grid-column-gap: 16px;
+	}
+
+	& li {
+		max-width: 264px;
+		cursor: pointer;
+		padding: 16px 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #FFFFFF;
+		border: 1px solid #1A1919;
+		box-sizing: border-box;
+		border-radius: 2px;
+		
+		font-family: Arsenal;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: center;
+		letter-spacing: 0.168824px;
+		color: #1A1919;
+
+		&:hover {
+			border: 1px solid #1A1919;
+		}
+	}
+}

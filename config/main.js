@@ -3,6 +3,6 @@ if (!process.env.PROD) {
 }
 
 module.exports = {
-	server_api: process.env.SERVER_API,
+	server_api: process.env.SERVER_URL,
 	port: process.env.PORT,
 };

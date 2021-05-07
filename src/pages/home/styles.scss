@@ -1,0 +1,15 @@
+.home {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+
+	&__wrap {
+		margin-top: 64px;
+		width: 100%;
+		max-width: 1146px;
+
+		display: grid;
+		grid-template-columns: 264px 1fr;
+		grid-column-gap: 30px;
+	}
+}

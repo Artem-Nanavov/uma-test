@@ -1,0 +1,67 @@
+.userInfo {
+	max-width: 264px;
+	width: 100%;
+
+	& p, & a {
+		font-family: Arsenal;
+		font-style: normal;
+		font-weight: normal;
+		color: #000000;
+	}
+
+	&__mainInfo {
+		& img {
+			border-radius: 50%;
+			margin-bottom: 16px;
+		}
+
+		& p {
+			font-size: 24px;
+			line-height: 29px;
+			text-align: center;
+		}
+	}
+
+	&__links {
+		margin-top: 24px;
+
+		& > p {
+			font-size: 18px;
+			line-height: 22px;
+		}
+
+		& ul {
+			display: grid;
+			grid-gap: 8px;
+		}
+
+		& li {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+
+			& p, & a {
+				font-size: 16px;
+				line-height: 19px;
+			}
+
+			& svg {
+				display: none;
+				margin-left: 8px;
+			}
+
+			&:hover {
+				& svg {
+					display: block;
+				}
+			}
+		}
+	}
+
+	&__border {
+		width: 100%;
+		height: 1px;
+		border: 1px solid #000000;
+		margin: 16px 0;
+	}
+}
