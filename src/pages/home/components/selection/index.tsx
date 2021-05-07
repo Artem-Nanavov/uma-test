@@ -9,11 +9,20 @@ const settings = {
 	dots: false,
 	centerMode: false,
 	infinite: false,
-	slidesToShow: 3,
+	slidesToShow: 4,
 	speed: 500,
 	rows: 2,
 	className: styles.slider,
 	autoplay: true,
+	responsive: [
+		{
+			breakpoint: 860,
+			settings: {
+				rows: 1,
+				slidesToShow: 3,
+			},
+		},
+	],
 };
 
 interface ISelection {
