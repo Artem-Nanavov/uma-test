@@ -15,7 +15,7 @@ function* getUserInfoSaga() {
 		yield put(homePageActions.setIsLoadingPage(true));
 		const res = yield call(getUserInfoApi, 'tanya_tilcha');
 
-		yield put(homePageActions.setUserInfo({...res.data, avatar: getImg(res.data.photoId, 118, 118)}));
+		yield put(homePageActions.setUserInfo({...res.data, avatar: getImg(res.data.photoId, 250, 250)}));
 	} catch (e) {
 		console.log('get user info saga erorr:', e);
 	} finally {
