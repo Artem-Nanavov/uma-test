@@ -2,6 +2,8 @@
 	display: grid;
 	grid-row-gap: 32px;
 	margin-top: 48px;
+	max-width: 998px;
+	width: 100%;
 
 	&__loadMore {
 		font-family: Arsenal;
@@ -32,4 +34,10 @@
 	font-family: Arsenal;
 	color: #333;
 	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+	.selections {
+		margin-top: 0;
+	}
 }

@@ -15,7 +15,7 @@ function* getUserInfoSaga() {
 		yield put(homePageActions.setIsLoadingPage(true));
 		const res = yield call(getUserInfoApi, 'tanya_tilcha');
 
-		yield put(homePageActions.setUserInfo({...res.data, avatar: getImg(res.data.photoId, 264, 264)}));
+		yield put(homePageActions.setUserInfo({...res.data, avatar: getImg(res.data.photoId, 118, 118)}));
 	} catch (e) {
 		console.log('get user info saga erorr:', e);
 	} finally {
@@ -58,7 +58,7 @@ function* loadMoreListFilteredFashionSaga(action: ReturnType<typeof homePageActi
 	} catch (e) {
 		console.log('load more list filtered fashion saga error:', e);
 	} finally {
-		yield put(homePageActions.loadMoreSerLoader(true));
+		yield put(homePageActions.loadMoreSerLoader(false));
 	}
 }
 

@@ -1,12 +1,11 @@
 .userInfo {
-	max-width: 264px;
+	max-width: 118px;
 	width: 100%;
 
 	& p, & a {
 		font-family: Arsenal;
 		font-style: normal;
 		font-weight: normal;
-		color: #000000;
 	}
 
 	&__mainInfo {
@@ -16,8 +15,8 @@
 		}
 
 		& p {
-			font-size: 24px;
-			line-height: 29px;
+			font-size: 18px;
+			line-height: 23px;
 			text-align: center;
 		}
 	}
@@ -26,8 +25,9 @@
 		margin-top: 24px;
 
 		& > p {
-			font-size: 18px;
-			line-height: 22px;
+			color: #000000;
+			font-size: 14px;
+			line-height: 18px;
 		}
 
 		& ul {
@@ -41,8 +41,9 @@
 			align-items: center;
 
 			& p, & a {
-				font-size: 16px;
-				line-height: 19px;
+				color: #666;
+				font-size: 12px;
+				line-height: 15px;
 			}
 
 			& svg {
@@ -51,6 +52,10 @@
 			}
 
 			&:hover {
+				& a, & p {
+					color: #000000;
+				}
+
 				& svg {
 					display: block;
 				}
