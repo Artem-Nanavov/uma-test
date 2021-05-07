@@ -38,3 +38,4 @@ npm start
 - Redux-saga
 - Connected-react-router
 - React-router-dom
+- [Сылка на тз](https://www.notion.so/UMA-Front-end-4ba54adb5eca4b7dbf68584ef90e1180)
